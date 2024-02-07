@@ -1,0 +1,1 @@
+uvicorn entity-master-app:app --reload

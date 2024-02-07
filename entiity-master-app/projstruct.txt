@@ -1,0 +1,50 @@
+entity-master-app/
+│
+├── app/
+│   ├── businesslayer/
+│   │   ├── entity_command_bll.py
+│   │   ├── entity_query_bll.py
+│   │   ├── internal_event_bll.py
+│   │   └── ... (other files related to business logic)
+│   ├── config/
+│   │   ├── development_config.py
+│   │   ├── production_config.py
+│   │   ├── constants.py
+│   │   └── ... (other configuration files)
+│   ├── datalayer/
+│   │   ├── entity_command_dao.py
+│   │   ├── entity_query_dao.py
+│   │   └── ... (other files related to data access)
+│   ├── domain/
+│   │   ├── internal_event.py
+│   │   ├── entity.py
+│   │   └── ... (other domain-related models)
+│   ├── etl/
+│   │   ├── data_processing.py
+│   │   └── ... (other ETL-related scripts)
+│   ├── router/
+│   │   ├── api_routes.py
+│   │   └── ... (other routing configurations)
+│   ├── util/
+│   │   ├── helper_functions.py
+│   │   └── ... (other utility scripts)
+│   ├── entity-master-app.py
+│   ├── redistest.py
+│   ├── requirements.txt
+│   └── start-app-dev.ps1
+│
+├── cemh-console/
+│   ├── public/
+│   ├── src/
+│   ├── pages/
+│   ├── components/
+│   ├── styles/
+│   ├── package.json
+│   └── ... (other Next.js or frontend related files)
+│
+├── docker/
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── ... (other Docker configurations)
+│
+└── myenvlibs/ (venv folder)
